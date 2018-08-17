@@ -1,0 +1,8 @@
+<!--pages/retrieve/retrieve.wxml-->
+
+<view class="goods-content" wx:for ="{{list}}" wx:for-index="idx">
+  <text class="name">{{list[idx].fname}}</text>
+  <text class="name">{{list[idx].lname}}</text>
+  <text class="name">{{list[idx].age}}</text>
+  <text class="name">{{list[idx].color}}</text>
+</view>

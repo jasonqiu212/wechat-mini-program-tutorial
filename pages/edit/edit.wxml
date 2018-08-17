@@ -1,0 +1,33 @@
+<!--pages/new/new.wxml-->
+
+<view class="index-section">
+  <form bindsubmit="insertSubmit">
+    <view class="section-title">Insert</view>
+
+      <view class="tab">First Name</view>
+      <input name='fname' class="input" maxlength="25" placeholder='Johnny'/>
+
+      <view class="tab">Last Name</view>
+      <input name='lname' class="input" maxlength="25" placeholder='Appleseed'/>
+
+      <view class="tab">Age</view>
+      <input type='digit' name='age' class="input" maxlength="3" placeholder='28'/>
+
+      <view class="tab">Favorite Color</view>
+      <input name='color' class="input" maxlength="15" placeholder='Blue'/>
+
+      <button class="button" formType="submit">Insert</button>
+  </form>
+
+  <view class="section-title">Delete</view>
+  <form bindsubmit="deleteSubmit">
+
+      <view class="tab">First Name</view>
+      <input name='fname' class="input" maxlength="25" placeholder='Johnny'/>
+
+      <view class="tab">Last Name</view>
+      <input name='lname' class="input" maxlength="25" placeholder='Appleseed'/>
+
+      <button class="button" formType="submit">Delete</button>
+  </form>
+</view>

@@ -1,0 +1,15 @@
+page{
+  background-color: #f8f7f7;
+}
+
+.title{
+    display: block;
+    margin: 3%;
+}
+.container{
+  margin: 10px;
+}
+.about{
+  font-size: 14px;
+  line-height: 20px;
+}

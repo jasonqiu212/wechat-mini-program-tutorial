@@ -1,0 +1,21 @@
+/* pages/new/new.wxss */
+page{
+  background-color: #f8f7f7;
+}
+
+.goods-content{
+  line-height: 1.5;
+  background-color: #fff;
+  font-size: 28rpx;
+  margin-top: 10rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex: 3;
+  padding-left: 30rpx;
+  padding-bottom: 10rpx;
+}
+
+.name{
+  display: block;
+}

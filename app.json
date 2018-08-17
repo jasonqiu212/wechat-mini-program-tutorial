@@ -1,0 +1,38 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/edit/edit",
+    "pages/retrieve/retrieve",
+    "pages/jump/jump"
+  ],
+  "tabBar": {
+    "color": "#666",
+    "selectedColor": "#00ACD3",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "Home",
+        "iconPath": "images/home.png",
+        "selectedIconPath": "images/home_fill.png"
+      },
+      {
+        "pagePath": "pages/edit/edit",
+        "text": "Edit",
+        "iconPath": "images/trade.png",
+        "selectedIconPath": "images/trade_fill.png"
+      },
+      {
+        "pagePath": "pages/retrieve/retrieve",
+        "text": "Retrieve",
+        "iconPath": "images/people.png",
+        "selectedIconPath": "images/people_fill.png"
+      }
+    ]
+  },
+  "window": {
+    "backgroundColor": "#f8f8f8",
+    "backgroundTextStyle": "light",
+    "navigationBarTitleText": "Tutorial",
+    "navigationBarTextStyle": "#fff"
+  }
+}

@@ -1,0 +1,21 @@
+<!--index.wxml-->
+
+<image src="../../images/banner.png" class="slide-image" />
+
+<view class="index-section">
+  <view class="section-title">New Stuff</view>
+  <view class="section-content">
+    <view class='section-item'>
+      <image src="../../images/goods.jpg" class="section-img" mode="widthFix" />
+      <text class="section-name">Biscuits</text>
+      <text class="section-price">39.9</text>
+    </view>
+
+    <navigator class='section-item' url='/pages/jump/jump'>
+      <image src="../../images/goods.jpg" class="section-img" mode="widthFix" />
+      <text class="section-name">Biscuits</text>
+      <text class="section-price">39.9</text>
+    </navigator>
+
+  </view>
+</view>
