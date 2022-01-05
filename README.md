@@ -1,2 +1,3 @@
-# WeChat-Mini-Program-Tutorial-1.0
-Great starter pack to learn how to code a dynamic WeChat Mini Program!
+# WeChat Mini Program Tutorial
+
+Starter pack to learn how to code a dynamic WeChat Mini Program using PHP
